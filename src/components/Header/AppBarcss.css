@@ -1,0 +1,47 @@
+
+.appBar{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 24px 48px;
+gap: 10px;
+
+position: absolute;
+width: 1440px;
+height: 96px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+background: #FFFFFF;
+border-bottom: 1px solid #E0E0E0;
+}
+
+
+#test{
+    width: 97px;
+height: 17px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+}
+
+

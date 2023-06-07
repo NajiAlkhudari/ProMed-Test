@@ -1,0 +1,37 @@
+#footercss{
+    display: flex;
+
+padding: 24px 48px;
+gap: 10px;
+
+position: absolute;
+width: 1440px;
+height: 66px;
+left: 0px;
+bottom: 0px;
+
+background: rgba(52, 175, 224, 0.1);
+}
+
+
+
+
+#any{
+    width: 87px;
+height: 11px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+
+
+color: #828282;
+
+
+}

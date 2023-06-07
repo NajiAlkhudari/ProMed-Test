@@ -1,0 +1,115 @@
+#img{
+    
+position: absolute;
+width: 144px;
+height: 144px;
+left: 96px;
+top: 44px;
+
+background: linear-gradient(0deg, rgba(52, 175, 224, 0.1), rgba(52, 175, 224, 0.1));
+border-radius: 96px;
+}
+
+
+#all{
+    position: absolute;
+width: 1535px;
+height: 240px;
+left: 0px;
+top: 96px;
+
+background: rgba(99, 203, 233, 0.1);
+}
+
+#line{
+    position: absolute;
+width: 227px;
+height: 17px;
+left: 264px;
+top: 99px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #333333;
+}
+
+
+#line2{
+    position: absolute;
+width: 59px;
+height: 11px;
+left: 264px;
+top: 132px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #828282;
+
+}
+
+
+#line3
+{
+    position: absolute;
+width: 170px;
+height: 22px;
+left: 100px;
+top: 288px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+
+color: #333333;
+}
+
+
+#data{
+    position: absolute;
+    width: 170px;
+    height: 22px;
+    left: 100px;
+    top: 400px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    
+    color: #333333;
+}

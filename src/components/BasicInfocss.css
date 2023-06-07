@@ -1,0 +1,295 @@
+
+#test1
+{
+    width: 115px;
+    height: 22px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    
+    color: #333333;
+}
+
+
+
+
+#Clinics{
+    /* Clinics */
+
+
+width: 53px;
+height: 11px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* leading-trim and text-edge are draft CSS properties.
+
+Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+*/
+leading-trim: both;
+text-edge: cap;
+text-decoration-line: underline;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+
+}
+
+
+
+#basic{
+    position: absolute;
+    width: 80px;
+    height: 11px;
+    left: 1px;
+    top: 75px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* leading-trim and text-edge are draft CSS properties.
+    
+    Read more: https://drafts.csswg.org/css-inline-3/#leading-trim
+    */
+    leading-trim: both;
+    text-edge: cap;
+    
+    color: #333333;
+    
+    
+
+}
+
+
+
+#textfeild{
+  box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 24px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 66px;
+top: 268px;
+
+
+}
+
+#body
+{
+    background: #E5E5E5;
+}
+
+
+/* Breadcrumb */
+
+#Breadcrumb{
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+position: absolute;
+width: 236px;
+height: 24px;
+left: 96px;
+top: 144px;
+}
+
+#comp{
+    
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px 12px 24px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 512px;
+top: 268px;
+
+
+border-radius: 8px;
+}
+
+#country{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px 12px 24px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 76px;
+top: 352px;
+
+
+border-radius: 8px;
+}
+
+#city{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 12px 16px 12px 24px;
+gap: 10px;
+
+position: absolute;
+width: 400px;
+height: 48px;
+left: 512px;
+top: 352px;
+
+
+border-radius: 8px;
+}
+
+#feild1
+{box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 18px 24px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 261px;
+    height: 48px;
+    left: 66px;
+    top: 430px;
+    
+  
+    border-radius: 8px;
+}
+
+#feild2{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 24px;
+gap: 10px;
+
+position: absolute;
+width: 261px;
+height: 48px;
+left: 343px;
+top: 430px;
+
+
+border-radius: 8px;
+}
+
+
+#feild3{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 24px;
+gap: 10px;
+
+position: absolute;
+width: 261px;
+height: 48px;
+left: 620px;
+top: 430px;
+
+border-radius: 8px;
+}
+
+
+#btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 18px 96px;
+gap: 10px;
+color: #E5E5E5;
+position: absolute;
+width: 232px;
+height: 48px;
+left: 96px;
+top: 920px;
+
+background: #34AFE0;
+box-shadow: 0px 5px 25px rgba(6, 129, 180, 0.25);
+border-radius: 8px;
+}
+
+
+#phone{
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 86px;
+    top: 820px;
+}
+
+/* .map-container {
+    position: absolute;
+
+    left: 86px;
+    top: 1100px;
+    
+
+
+  } */
